@@ -1,13 +1,14 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    font-family: 'Rubik', sans-serif;
+}
 
-  body {
+body{
     display: flex;
     flex-wrap: wrap;
-  }
+}
   
 header{
     position:fixed;
@@ -21,17 +22,21 @@ header{
     z-index:1;
 }
 
-h1{
-    font-family: 'Monoton';
-    font-size: 40px;
-    font-weight: 500;
-}
-
-header img{
+.aboutMe #profilePic{
     margin-top: 40px;
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: 'Monoton';
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
 }
 
 ul li{
@@ -48,7 +53,6 @@ header nav ul{
 header nav ul li a{
     text-decoration: none;
     color: white;
-    /* padding-top: 100px; */
 }
 
 header nav ul li a:hover{
@@ -62,16 +66,9 @@ header nav ul li a:hover{
     color: white;
 }
 
-.aboutMe h1{
-    text-align: center;
-
-}
-
 .aboutMe p{
     text-align: center;
     padding-top: 50px;
-    /* padding-left: 100px; */
-    /* padding-right: 360px; */
 }
 
 .aboutMe .work{
@@ -80,7 +77,6 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* flex-basis: auto; */
 }
 
 .work .Project{
@@ -99,8 +95,37 @@ header nav ul li a:hover{
 
 .Project:hover{
     transform: scale(1.2);
-    /* z-index: 2; */
     object-fit: cover;
+}
+
+.Project:hover::after{
+    position: absolute;
+    left: 100px;
+    top: 240px;
+    border: 3px solid grey;
+    padding:10px;
+    background-color: #4158D0;
+    color: white;
+}
+
+.Project:hover:nth-child(1)::after{
+    content: "Surf Report";
+}
+
+.Project:hover:nth-child(2)::after{
+    content: "LED Wall";
+}
+
+.Project:hover:nth-child(3)::after{
+    content: "Calculator";
+}
+
+.Project:hover:nth-child(4)::after{
+    content: "Pastel Puzzles";
+}
+
+.Project:hover:nth-child(5)::after{
+    content: "Run Buddy";
 }
 
 footer{
@@ -108,10 +133,6 @@ footer{
     z-index: 1;
     background: linear-gradient(lime,aqua);
     color: white;
-}
-
-footer h1{
-    text-align: center;
 }
 
 footer ul{
@@ -124,6 +145,7 @@ footer ul li{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 footer ul li a{
     text-decoration: none;
     color: white;
@@ -143,7 +165,6 @@ footer ul li a:hover{
 
 @media screen and (max-width: 1100px){
     header{
-        
         min-height: 10vh;
         min-width: 100%;
         width:20%;
@@ -154,6 +175,7 @@ footer ul li a:hover{
     }
 
     .aboutMe{
+        padding-top: 200px;
         margin-left: 0px;
         width: 100%;
         background: black;
@@ -162,13 +184,10 @@ footer ul li a:hover{
 
     .aboutMe h1{
         text-align: center;
-        /* margin-top: 50px; */
-        padding-top: 200px;
     }
     
     .aboutMe p{
         text-align: center;
-
     }
 }
 
@@ -181,6 +200,42 @@ footer ul li a:hover{
 @media screen and (max-width: 550px){
     h1{
         font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 375px){
+    header img{
+        display:none;
+    }
+    
+    .work .Project{
+        width: auto;
+        height: auto;
+    }
+
+    .work .Project img{
+        width: 60vw;
+        height: 30vh;
+    }
+
+    .Project:hover::after{
+        position:absolute;
+        align-items: center;
+        justify-content: center;
+        top:160px;
+        left:40px;
+        font-size: 0.8em;
+        padding:0.8em;
+    }
+}
+
+@media screen and (max-width: 312px){
+    header nav ul li{
+        font-size: 0.6em;
+    }
+
+    .aboutMe #profilePic{
+        margin-top: 0px;
     }
 }
 
