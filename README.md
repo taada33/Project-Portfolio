@@ -4,6 +4,7 @@
 
 This project will be used as a portfolio website for projects that I will create. Currently the functionality is mostly just placeholders, but has responsive behaviour
 and showcases my current expertise in CSS and HTML.
+
 ## Installation
 
 N/A
@@ -16,7 +17,16 @@ To view the completed website, please visit [https://taada33.github.io/Project-P
 
 ## Credits
 
-links to assets
+Assets used:
+
+[https://www.pngitem.com/pimgs/m/10-106042_male-professional-avatar-icon-hd-png-download.png](https://www.pngitem.com/pimgs/m/10-106042_male-professional-avatar-icon-hd-png-download.png)
+[https://thumbs.gfycat.com/BeneficialDentalGosling.webp](https://thumbs.gfycat.com/BeneficialDentalGosling.webp)
+[https://media3.giphy.com/media/8lGQNlZqYBP86D4Cep/giphy.gif?cid=790b7611410df1f5877483bd96b6250d12044b3ababd9118&rid=giphy.gif&ct=g](https://media3.giphy.com/media/8lGQNlZqYBP86D4Cep/giphy.gif?cid=790b7611410df1f5877483bd96b6250d12044b3ababd9118&rid=giphy.gif&ct=g)
+[https://media1.giphy.com/media/quEsMOrr3hmQ8/giphy.gif?cid=790b7611348426cf2283cbc8ff2f83f5ca7669e8a9df7421&rid=giphy.gif&ct=g](https://media1.giphy.com/media/quEsMOrr3hmQ8/giphy.gif?cid=790b7611348426cf2283cbc8ff2f83f5ca7669e8a9df7421&rid=giphy.gif&ct=g)
+[https://media.tenor.com/VGowjXpojsYAAAAM/rubiks-cube-gif.gif](https://media.tenor.com/VGowjXpojsYAAAAM/rubiks-cube-gif.gif)
+[https://media.tenor.com/Pvf58wBw6aAAAAAM/stickman-running.gif](https://media.tenor.com/Pvf58wBw6aAAAAAM/stickman-running.gif)
+
+Rubik and Monoton fonts imported from [https://fonts.google.com/](https://fonts.google.com/)
 
 ## License
 Copyright <2022> <Thomas Adamson>
