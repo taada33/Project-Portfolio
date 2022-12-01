@@ -4,10 +4,15 @@
 
 This project will be used as a portfolio website for projects that I will create. Currently the functionality is mostly just placeholders, but has responsive behaviour
 and showcases my current expertise in CSS and HTML.
+## Installation
+
+N/A
 
 ## Usage
 
-website link, photo
+![Website Screenshot](assets/images/screenshot.png)
+
+To view the completed website, please visit [https://taada33.github.io/Project-Portfolio/](https://taada33.github.io/Project-Portfolio/)
 
 ## Credits
 
