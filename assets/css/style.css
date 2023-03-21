@@ -113,7 +113,7 @@ header nav ul li a:hover{
 }
 
 .Project:hover:nth-child(2)::after{
-    content: "LED Wall";
+    content: "The Flower Emporium";
 }
 
 .Project:hover:nth-child(3)::after{
